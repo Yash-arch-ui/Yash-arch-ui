@@ -1,25 +1,16 @@
-<!-- MATRIX HEADER -->
-<p align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" />
-</p>
-
-<h1 align="center">⚡ Yash | Smart Contract Engineer</h1>
-<h3 align="center">Building the Financial Layer of the Internet</h3>
+<h1 align="center">⚡ Yash </h1>
+<h3 align="center">Building Smart Contracts</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&center=true&vCenter=true&lines=DeFi+Developer;Smart+Contract+Engineer;Uniswap+%7C+Aave+Builder;EVM+Internals+Explorer" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&center=true&vCenter=true&lines=DeFi+Explorer;Smart+Contract+Developer;Aave+%7C+Uniswap+Inspired;Security+Focused" />
 </p>
 
 ---
 
 ## 🧠 About Me
 
-- 🧱 Building **DeFi Protocols from scratch**
-- ⚙️ Deep diving into **EVM, Gas Optimization, MEV**
-- 🧪 Currently working on:
-  - AMM (Uniswap V2 style)
-  - Lending Protocol (Aave inspired)
-- 🎯 Goal: Become **Top 1% Web3 Engineer**
+- 🎓 Student at IIT Roorkee  
+- 🔍 Currently Exploring **DeFi protocols & smart contract security**
 
 ---
 
@@ -48,7 +39,9 @@
 - 🟢 **Simple AMM** → Uniswap V2-style liquidity engine  
 - 🟣 **MyAAVE** → Lending + Borrowing protocol  
 - 🔵 **Pulse** → Crypto dashboard  
-- ⚡ **Forge Build** → Deep dive into blockchain infra  
+- ⚡ **Forge Build** → Deep dive into blockchain infra
+- 🔵 **DiviSafe** -> Dividend Fraud prevention & Safety
+- 🔵 **SeatSwap** -> As the name suggests :)
 
 ---
 
