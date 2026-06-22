@@ -18,7 +18,7 @@
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=solidity,js,ts,react,nodejs,python,cpp,git,github" />
+<img src="https://skillicons.dev/icons?i=solidity,js,ts,react,nodejs,python,cpp,move,java" />
 
 </p>
 
@@ -36,12 +36,16 @@
 
 ### 🧪 DeFi Core Builds
 
-- 🟢 **Simple AMM** → Uniswap V2-style liquidity engine  
-- 🟣 **MyAAVE** → Lending + Borrowing protocol  
-- 🔵 **Pulse** → Crypto dashboard  
-- ⚡ **Forge Build** → Deep dive into blockchain infra
-- 🔵 **DiviSafe** -> Dividend Fraud prevention & Safety
-- 🔵 **SeatSwap** -> As the name suggests :)
+- 🟢 **Simple AMM** 
+- 🟣 **MyAAVE**  
+- 🔵 **Pulse** 
+- ⚡ **Forge Build** 
+- 🔵 **DiviSafe** 
+- 🔵 **SeatSwap** 
+- 🟢 **HOOKSHIELD**
+- 🟣 **CIRCUITBREAKERAMM**
+- ⚡ ** CURVESTABLESWAP**
+  
 
 ---
 
@@ -75,7 +79,7 @@
 
 <p align="center">
 
-<a href="https://twitter.com/yourhandle">
+<a href="https://x.com/YashSingh166431">
   <img src="https://img.shields.io/badge/Twitter-black?style=for-the-badge&logo=twitter"/>
 </a>
 
