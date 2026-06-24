@@ -1,8 +1,8 @@
 <h1 align="center">⚡ Yash </h1>
-<h3 align="center">Building Smart Contracts</h3>
+<h3 align="center">Building </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&center=true&vCenter=true&lines=DeFi+Explorer;Smart+Contract+Developer;Aave+%7C+Uniswap+Inspired;Security+Focused" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&center=true&vCenter=true&lines=DeFi+Explorer;Smart+Contract+Developer" />
 </p>
 
 ---
@@ -34,12 +34,11 @@
 
 ## 🚀 Featured Projects
 
-### 🧪 DeFi Core Builds
+
 
 - 🟢 **Simple AMM** 
 - 🟣 **MyAAVE**  
 - 🔵 **Pulse** 
-- ⚡ **Forge Build** 
 - 🔵 **DiviSafe** 
 - 🔵 **SeatSwap** 
 - 🟢 **HOOKSHIELD**
