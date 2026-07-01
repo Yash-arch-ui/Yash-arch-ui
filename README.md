@@ -9,7 +9,7 @@
 
 ## 🧠 About Me
 
-- 🎓 Student at IIT Roorkee  
+- 🎓 Sophomore@IIT Roorkee  
 - 🔍 Currently Exploring **DeFi protocols & smart contract security**
 
 ---
@@ -33,16 +33,12 @@
 ---
 
 ## 🚀 Featured Projects
-
-
-
-- 🟢 **Simple AMM** 
-- 🟣 **MyAAVE**  
+  
 - 🔵 **Pulse** 
 - 🔵 **DiviSafe** 
 - 🔵 **SeatSwap** 
 - 🟢 **HOOKSHIELD**
-- 🟣 **CIRCUITBREAKERAMM**
+- 🟣 **GUARDIANAMM**
 - ⚡ ** CURVESTABLESWAP**
   
 
@@ -81,11 +77,6 @@
 <a href="https://x.com/YashSingh166431">
   <img src="https://img.shields.io/badge/Twitter-black?style=for-the-badge&logo=twitter"/>
 </a>
-
-<a href="https://linkedin.com/in/yourhandle">
-  <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
-</a>
-
 </p>
 
 ---
