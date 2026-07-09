@@ -10,7 +10,7 @@
 ## 🧠 About Me
 
 - 🎓 Sophomore@IIT Roorkee  
-- 🔍 Currently Exploring **DeFi protocols & smart contract security**
+- 🔍 Currently Exploring **DeFi protocols**
 
 ---
 
@@ -18,7 +18,7 @@
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=solidity,js,ts,react,nodejs,python,cpp,move,java" />
+<img src="https://skillicons.dev/icons?i=solidity,js,ts,react,nodejs,wagmi,react,cpp,move,java,rust" />
 
 </p>
 
@@ -33,13 +33,61 @@
 ---
 
 ## 🚀 Featured Projects
-  
-- 🔵 **Pulse** 
-- 🔵 **DiviSafe** 
-- 🔵 **SeatSwap** 
-- 🟢 **HOOKSHIELD**
-- 🟣 **GUARDIANAMM**
-- ⚡ ** CURVESTABLESWAP**
+
+🟦 WrapLayer
+
+Every developer building on Zama's FHEVM was deploying their own ERC-20 testnet tokens and ERC-7984 confidential wrappers in isolation — resulting in duplicate assets, incompatible integrations, and wallets full of look-alike tokens that don't compose. Zama ships an official Wrappers Registry onchain — a single source of truth for canonical ERC-20 ↔ ERC-7984 pairs — but nobody had built a usable interface for it. WrapLayer is that interface.
+
+🟩 Morpho Blue Liquidation Bot — Contribution
+
+Contributed to a simple, fast, and easily deployable liquidation bot for the Morpho Blue protocol. The bot is entirely RPC-based and designed to be easy to configure, customizable, and ready to deploy on any EVM-compatible chain.
+
+
+Automatically detects liquidatable positions and executes liquidations
+Multi-chain compatible
+Modular architecture with pluggable data providers, liquidity venues, and pricers
+Profit evaluation via configurable pricers
+Minimal setup and dependencies (RPC-only, no extra infra required)
+
+
+🟨 HookShield
+
+A Dynamic Fee Hook for Uniswap V4. Traditional AMMs use static fee tiers that stay fixed regardless of market volatility — HookShield computes swap fees dynamically during execution using external market data and a customizable fee model, enabling adaptive pricing that better reflects real-time market risk.
+
+
+Dynamic fee calculation during swaps
+Uniswap V4 Hook integration
+External market data support
+Pluggable fee calculation engine
+BeforeSwap & AfterSwap hook execution
+Full integration test coverage
+
+
+🟪 DiviSAFE
+
+A decentralized dividend-governance and risk-mitigation platform designed to protect investors from dividend traps, payout manipulation, and opaque corporate practices. Replaces trust-based, delayed-disclosure dividend systems with an on-chain, rule-based framework where every critical action is verifiable, auditable, and enforced by smart contracts — enabling transparent revenue reporting, shareholder-approved payouts, and immutable, proportional voting power.
+
+🟥 AEGIS AMM
+
+A decentralized Automated Market Maker built on the Sui blockchain with an integrated circuit breaker mechanism designed to protect liquidity providers during periods of abnormal market volatility. Unlike traditional AMMs that keep processing swaps regardless of market conditions, Aegis monitors pool activity and can temporarily halt trading when predefined risk thresholds are exceeded.
+
+
+Smart Contracts: Sui Move, Sui Framework
+Frontend: React, JavaScript, Vite, Tailwind CSS, Mysten dApp Kit, React Query
+Wallet: Slush Wallet
+
+
+
+🏗️ Foundational Builds
+
+Earlier protocol replications that built the base for the projects above:
+
+
+🦄 Uniswap V2 — AMM core, TWAP accumulation, LP token math
+🦄 Uniswap V3 — Concentrated liquidity, tick-by-tick swap logic
+〰️ Curve StableSwap — Invariant maths, Newton-Raphson solvers, fuzz-tested AMM
+👻 Aave V2 — Full lending protocol replication from scratch
+〰️ Balancer V3 -Exploring these protocols right now and making a router for them :)
   
 
 ---
