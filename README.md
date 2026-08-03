@@ -77,7 +77,8 @@ Frontend: React, JavaScript, Vite, Tailwind CSS, Mysten dApp Kit, React Query
 Wallet: Slush Wallet
 
 
-
+🟨 VANTAGE
+Autonomous pre-execution policy layer for Monad. Holds transactions before signing, evaluates them against live Monad execution state (deferred validation, OCC contention), and decides — proceed, hold, adjust, or abort — with a full audit trail.Once a contract is registered on VANTAGE is analysed and checked forever and scored simultaneously
 🏗️ Foundational Builds
 
 Earlier protocol replications that built the base for the projects above:
