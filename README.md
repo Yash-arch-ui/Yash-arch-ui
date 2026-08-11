@@ -1,24 +1,46 @@
-<h1 align="center">⚡ Yash </h1>
-<h3 align="center">Building </h3>
+<h1 align="center">Yash</h1>
+
+<h3 align="center">
+Building at the intersection of EVM, DeFi & Blockchain Infrastructure
+</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&center=true&vCenter=true&lines=DeFi+Explorer;Smart+Contract+Developer" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/Yash-arch-ui">
+    <img src="https://img.shields.io/github/followers/Yash-arch-ui?style=for-the-badge&label=Followers" />
+  </a>
+  <a href="https://github.com/Yash-arch-ui?tab=repositories">
+    <img src="https://img.shields.io/github/stars/Yash-arch-ui?style=for-the-badge&label=Stars" />
+  </a>
+</p>
+
 ---
 
-## 🧠 About Me
+## About
 
-- 🎓 Sophomore@IIT Roorkee  
-- 🔍 Currently Exploring **DeFi protocols**
+Sophomore at IIT Roorkee focused on **DeFi protocols, EVM internals, smart contract security and blockchain infrastructure**.
+
+I learn protocols by rebuilding them from scratch, breaking their assumptions, and then building systems on top of them.
+
+Currently exploring:
+
+- EVM execution & transaction lifecycle
+- DeFi protocol architecture
+- Smart contract security
+- AMMs & liquidity mechanisms
+- Parallel execution & blockchain infrastructure
+- Rust for protocol engineering
 
 ---
 
-## ⚔️ Tech Arsenal
+## Tech Stack
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=solidity,js,ts,react,nodejs,wagmi,react,cpp,move,java,rust" />
+<img src="https://skillicons.dev/icons?i=solidity,js,ts,react,nodejs,wagmi,cpp,move,java,rust" />
 
 </p>
 
@@ -32,68 +54,118 @@
 
 ---
 
-## 🚀 Featured Projects
+# Featured Work
 
-🟦 WrapLayer
+## VANTAGE
 
-Every developer building on Zama's FHEVM was deploying their own ERC-20 testnet tokens and ERC-7984 confidential wrappers in isolation — resulting in duplicate assets, incompatible integrations, and wallets full of look-alike tokens that don't compose. Zama ships an official Wrappers Registry onchain — a single source of truth for canonical ERC-20 ↔ ERC-7984 pairs — but nobody had built a usable interface for it. WrapLayer is that interface.
+**Autonomous pre-execution policy layer for Monad.**
 
-🟩 Morpho Blue Liquidation Bot — Contribution
+Vantage sits between an application and transaction execution, evaluating transactions against live chain state before signing.
 
-Contributed to a simple, fast, and easily deployable liquidation bot for the Morpho Blue protocol. The bot is entirely RPC-based and designed to be easy to configure, customizable, and ready to deploy on any EVM-compatible chain.
+It analyzes:
 
+- Simulation results
+- State / output drift
+- Execution contention
+- Nonce & balance conditions
+- Approval exposure
+- Historical execution signals
 
-Automatically detects liquidatable positions and executes liquidations
-Multi-chain compatible
-Modular architecture with pluggable data providers, liquidity venues, and pricers
-Profit evaluation via configurable pricers
-Minimal setup and dependencies (RPC-only, no extra infra required)
+The policy engine produces an actionable:
 
+**PROCEED · WARN · HOLD · ABORT**
 
-🟨 HookShield
+Vantage can also retain the original execution assumptions and re-check them against fresh chain state, allowing applications to detect when a transaction has become stale before execution.
 
-A Dynamic Fee Hook for Uniswap V4. Traditional AMMs use static fee tiers that stay fixed regardless of market volatility — HookShield computes swap fees dynamically during execution using external market data and a customizable fee model, enabling adaptive pricing that better reflects real-time market risk.
-
-
-Dynamic fee calculation during swaps
-Uniswap V4 Hook integration
-External market data support
-Pluggable fee calculation engine
-BeforeSwap & AfterSwap hook execution
-Full integration test coverage
-
-
-🟪 DiviSAFE
-
-A decentralized dividend-governance and risk-mitigation platform designed to protect investors from dividend traps, payout manipulation, and opaque corporate practices. Replaces trust-based, delayed-disclosure dividend systems with an on-chain, rule-based framework where every critical action is verifiable, auditable, and enforced by smart contracts — enabling transparent revenue reporting, shareholder-approved payouts, and immutable, proportional voting power.
-
-🟥 AEGIS AMM
-
-A decentralized Automated Market Maker built on the Sui blockchain with an integrated circuit breaker mechanism designed to protect liquidity providers during periods of abnormal market volatility. Unlike traditional AMMs that keep processing swaps regardless of market conditions, Aegis monitors pool activity and can temporarily halt trading when predefined risk thresholds are exceeded.
-
-
-Smart Contracts: Sui Move, Sui Framework
-Frontend: React, JavaScript, Vite, Tailwind CSS, Mysten dApp Kit, React Query
-Wallet: Slush Wallet
-
-
-🟨 VANTAGE
-Autonomous pre-execution policy layer for Monad. Holds transactions before signing, evaluates them against live Monad execution state (deferred validation, OCC contention), and decides — proceed, hold, adjust, or abort — with a full audit trail.Once a contract is registered on VANTAGE is analysed and checked forever and scored simultaneously
-🏗️ Foundational Builds
-
-Earlier protocol replications that built the base for the projects above:
-
-
-🦄 Uniswap V2 — AMM core, TWAP accumulation, LP token math
-🦄 Uniswap V3 — Concentrated liquidity, tick-by-tick swap logic
-〰️ Curve StableSwap — Invariant maths, Newton-Raphson solvers, fuzz-tested AMM
-👻 Aave V2 — Full lending protocol replication from scratch
-〰️ Balancer V3 -Exploring these protocols right now and making a router for them :)
-  
+The long-term goal is to turn Vantage into an **execution-intelligence API/SDK for high-throughput blockchain applications**.
 
 ---
 
-## 📊 GitHub Intelligence
+## HookShield
+
+**Dynamic risk-aware fees for Uniswap V4.**
+
+HookShield replaces static fee assumptions with dynamically calculated fees based on market conditions.
+
+Built around:
+
+- Uniswap V4 Hooks
+- Dynamic fee calculation
+- External market data
+- Volatility signals
+- BeforeSwap / AfterSwap execution
+- Integration testing
+
+---
+
+## Morpho Blue Liquidation Bot
+
+**Fast, RPC-based liquidation infrastructure for Morpho Blue.**
+
+Designed to be simple to deploy and easy to extend across EVM-compatible chains.
+
+- Automatic liquidation detection
+- Multi-chain compatibility
+- Modular data providers
+- Pluggable liquidity venues
+- Configurable pricing
+- Profit evaluation
+- RPC-only architecture
+
+---
+
+## WrapLayer
+
+**Interface for Zama's ERC-20 ↔ ERC-7984 wrapper ecosystem.**
+
+WrapLayer provides a usable interface around Zama's on-chain Wrappers Registry, giving developers a way to discover canonical confidential-token wrappers instead of deploying duplicate representations.
+
+---
+
+## DiviSAFE
+
+**On-chain dividend governance and fraud protection.**
+
+A decentralized framework for transparent revenue reporting, shareholder voting and dividend execution.
+
+Critical actions are enforced through smart contracts rather than relying entirely on centralized reporting.
+
+---
+
+## AEGIS AMM
+
+**AMM with an integrated circuit breaker on Sui.**
+
+Built in Move, AEGIS monitors pool activity and can halt swaps when predefined risk conditions are exceeded.
+
+**Stack**
+
+`Sui Move · React · Vite · Tailwind · Mysten dApp Kit · React Query`
+
+---
+
+# Protocol Engineering
+
+I don't just use protocols — I rebuild their core mechanisms to understand how they work.
+
+### Uniswap V2
+AMM invariant · swaps · LP token mechanics · TWAP accumulation
+
+### Uniswap V3
+Concentrated liquidity · ticks · sqrtPriceX96 · swap mathematics
+
+### Curve StableSwap
+StableSwap invariant · amplification · Newton-Raphson solvers
+
+### Aave V2
+Lending markets · collateralization · borrowing · liquidation mechanics
+
+### Balancer V3
+Vault architecture · transient accounting · buffers · routing
+
+---
+
+# GitHub
 
 <p align="center">
 
@@ -111,7 +183,7 @@ Earlier protocol replications that built the base for the projects above:
 
 ---
 
-## 🧬 Contribution Snake
+# Contribution Graph
 
 <p align="center">
   <img src="https://github.com/Yash-arch-ui/Yash-arch-ui/blob/output/github-contribution-grid-snake.svg" />
@@ -119,23 +191,26 @@ Earlier protocol replications that built the base for the projects above:
 
 ---
 
-## 🌐 Connect
+# Connect
 
 <p align="center">
 
 <a href="https://x.com/YashSingh166431">
-  <img src="https://img.shields.io/badge/Twitter-black?style=for-the-badge&logo=twitter"/>
+  <img src="https://img.shields.io/badge/X-black?style=for-the-badge&logo=x"/>
 </a>
+
 </p>
 
 ---
-
-## 🧿 Profile Views
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Yash-arch-ui&color=00ff00&style=flat-square" />
+
+<img src="https://komarev.com/ghpvc/?username=Yash-arch-ui&color=00ff00&style=flat-square" />
+
 </p>
 
----
+<h3 align="center">
 
-<h3 align="center">⚡ "Code is Law. Protocols are Power." ⚡</h3>
+"Code is Law. Protocols are Power."
+
+</h3>
