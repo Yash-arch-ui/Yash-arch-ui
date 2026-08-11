@@ -7,16 +7,6 @@ Building at the intersection of EVM, DeFi & Blockchain Infrastructure
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&center=true&vCenter=true&lines=DeFi+Explorer;Smart+Contract+Developer" />
 </p>
-
-<p align="center">
-  <a href="https://github.com/Yash-arch-ui">
-    <img src="https://img.shields.io/github/followers/Yash-arch-ui?style=for-the-badge&label=Followers" />
-  </a>
-  <a href="https://github.com/Yash-arch-ui?tab=repositories">
-    <img src="https://img.shields.io/github/stars/Yash-arch-ui?style=for-the-badge&label=Stars" />
-  </a>
-</p>
-
 ---
 
 ## About
