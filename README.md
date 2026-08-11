@@ -7,8 +7,6 @@ Building at the intersection of EVM, DeFi & Blockchain Infrastructure
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&center=true&vCenter=true&lines=DeFi+Explorer;Smart+Contract+Developer" />
 </p>
----
-
 ## About
 
 Sophomore at IIT Roorkee focused on **DeFi protocols, EVM internals, smart contract security and blockchain infrastructure**.
