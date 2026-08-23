@@ -7,15 +7,13 @@ Building at the intersection of EVM, DeFi & Blockchain Infrastructure
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&center=true&vCenter=true&lines=DeFi+Explorer;Smart+Contract+Developer" />
 </p>
-I am a Sophomore at IIT Roorkee focused on **DeFi protocols, EVM internals, smart contract security and blockchain infrastructure**.
+I am a Sophomore at IIT Roorkee focused on DeFi protocols and blockchain infrastructure.
 
 I learn protocols by rebuilding them from scratch, breaking their assumptions, and then building systems on top of them.
 
 Currently exploring:
-
-- EVM execution & transaction lifecycle
+- Working in Monad Open Source Track doing open source contributions
 - DeFi protocol architecture
-- Smart contract security
 - AMMs & liquidity mechanisms
 - Parallel execution & blockchain infrastructure
 - Rust for protocol engineering
