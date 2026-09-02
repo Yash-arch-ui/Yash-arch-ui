@@ -54,6 +54,7 @@ It analyzes:
 - Nonce & balance conditions
 - Approval exposure
 - Historical execution signals
+- Rates every contract user is signed too 
 
 The policy engine produces an actionable:
 
@@ -82,37 +83,11 @@ Built around:
 
 ---
 
-## Morpho Blue Liquidation Bot
-
-**Fast, RPC-based liquidation infrastructure for Morpho Blue.**
-
-Designed to be simple to deploy and easy to extend across EVM-compatible chains.
-
-- Automatic liquidation detection
-- Multi-chain compatibility
-- Modular data providers
-- Pluggable liquidity venues
-- Configurable pricing
-- Profit evaluation
-- RPC-only architecture
-
----
-
 ## WrapLayer
 
 **Interface for Zama's ERC-20 ↔ ERC-7984 wrapper ecosystem.**
 
 WrapLayer provides a usable interface around Zama's on-chain Wrappers Registry, giving developers a way to discover canonical confidential-token wrappers instead of deploying duplicate representations.
-
----
-
-## DiviSAFE
-
-**On-chain dividend governance and fraud protection.**
-
-A decentralized framework for transparent revenue reporting, shareholder voting and dividend execution.
-
-Critical actions are enforced through smart contracts rather than relying entirely on centralized reporting.
 
 ---
 
@@ -144,7 +119,7 @@ StableSwap invariant · amplification · Newton-Raphson solvers
 ### Aave V2
 Lending markets · collateralization · borrowing · liquidation mechanics
 
-### Balancer V3
+### Balancer V2
 Vault architecture · transient accounting · buffers · routing
 
 ---
