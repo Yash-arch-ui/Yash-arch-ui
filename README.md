@@ -9,8 +9,6 @@ Building at the intersection of EVM, DeFi & Blockchain Infrastructure
 </p>
 I am a Sophomore at IIT Roorkee focused on DeFi protocols and blockchain infrastructure.
 
-I learn protocols by rebuilding them from scratch, breaking their assumptions, and then building systems on top of them.
-
 Currently exploring:
 - Working in Monad Open Source Track doing open source contributions
 - DeFi protocol architecture
