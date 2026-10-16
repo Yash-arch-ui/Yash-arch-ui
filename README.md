@@ -87,16 +87,6 @@ WrapLayer provides a usable interface around Zama's on-chain Wrappers Registry, 
 
 ---
 
-## AEGIS AMM
-
-**AMM with an integrated circuit breaker on Sui.**
-
-Built in Move, AEGIS monitors pool activity and can halt swaps when predefined risk conditions are exceeded.
-
-**Stack**
-
-`Sui Move · React · Vite · Tailwind · Mysten dApp Kit · React Query`
-
 ---
 
 # Protocol Engineering
