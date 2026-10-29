@@ -2,7 +2,7 @@
 
 I'm a sophomore at the Indian Institute of Technology Roorkee.
 - Graduate, Solana Fall School
-- MOST Developer
+
 
 ### 🔗 Blockchain Interests
 - DeFi Protocols & Infrastructure
